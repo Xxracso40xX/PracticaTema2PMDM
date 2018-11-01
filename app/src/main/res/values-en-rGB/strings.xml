@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="y">and</string>
+    <string name="viudo">Widower</string>
+    <string name="genero">You need to choose your gender</string>
+    <string name="no_hijos">childless</string>
+    <string name="separado">Separated</string>
+    <string name="seleccionaste">You choose:</string>
+    <string name="no_si">NO/YES</string>
+    <string name="edad_no">You must to write your age</string>
+    <string name="nombre_no">You must write your name</string>
+    <string name="apellido_no">You must write your surname</string>
+    <string name="mujer">Woman</string>
+    <string name="menor_edad">minor of age</string>
+    <string name="mayor_edad">major of age</string>
+    <string name="button1">information</string>
+    <string name="hombre">man</string>
+    <string name="hijos">Children:</string>
+    <string name="nombre_hint">Write here your name</string>
+    <string name="edad_hint">Write here your age</string>
+    <string name="si_hijos">with kids</string>
+    <string name="casado">Married</string>
+    <string name="otro">Other</string>
+    <string name="apellido_hint">Write here your surname</string>
+    <string name="resetear">Reset</string>
+</resources>

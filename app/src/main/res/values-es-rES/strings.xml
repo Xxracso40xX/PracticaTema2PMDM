@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="y">" y"</string>
+    <string name="viudo">viudo</string>
+    <string name="button1">Información</string>
+    <string name="apellido_no">Necesita escribir el apellido</string>
+    <string name="casado">Casado</string>
+    <string name="si_hijos">" con hijos"</string>
+    <string name="separado">Separado</string>
+    <string name="seleccionaste">Seleccionaste :</string>
+    <string name="otro">Otro</string>
+    <string name="nombre_no">Necesita escribir el nombre</string>
+    <string name="nombre_hint">Escriba aquí su nombre</string>
+    <string name="no_si">NO/SÍ</string>
+    <string name="no_hijos">" sin hijos"</string>
+    <string name="mujer">Mujer</string>
+    <string name="menor_edad">Menor de edad</string>
+    <string name="mayor_edad">Mayor de edad</string>
+    <string name="hombre">Hombre</string>
+    <string name="hijos">Hijos:</string>
+    <string name="genero">Usted debe seleccionar su género</string>
+    <string name="edad_no">Necesita escribir la edad</string>
+    <string name="edad_hint">Escriba aquí su edad</string>
+    <string name="apellido_hint">Escriba aquí su apellido</string>
+    <string name="resetear">Resetear</string>
+</resources>
