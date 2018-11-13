@@ -138,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
                 radio1.setChecked(false);
                 radio2.setChecked(false);
                 spinner1.setSelection(0);
+                txtv.setTextColor(getResources().getColor(R.color.gris));
             }
         });
     }
