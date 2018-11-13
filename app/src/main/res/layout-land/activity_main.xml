@@ -85,12 +85,10 @@
             android:id="@+id/textView3"
             style="@style/textView2"
             android:text="@string/hijos" />
-
         <Switch
             android:id="@+id/switch1"
             style="@style/switch2"
             android:text="@string/no_si" />
-
         <TextView
             android:id="@+id/textView1"
             style="@style/textView3"

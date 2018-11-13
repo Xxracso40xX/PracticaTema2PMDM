@@ -27,22 +27,18 @@
         android:inputType="textPersonName|number"
         android:text="@string/edad"
         tools:targetApi="o"/>
-
     <RadioGroup
         style="@style/radioGroup"
         android:id="@+id/radioGroupp"
        >
-
         <RadioButton
             android:id="@+id/radioButton1"
             style="@style/button"
             android:text="@string/hombre" />
-
         <RadioButton
             android:id="@+id/radioButton2"
             style="@style/button"
             android:text="@string/mujer" />
-
     </RadioGroup>
     <Spinner
         style="@style/spinner"
@@ -51,18 +47,15 @@
     </Spinner>
     <LinearLayout
        style="@style/linearLayout1">
-
         <TextView
             android:id="@+id/textView3"
             style="@style/textView"
             android:text="@string/hijos" />
-
         <Switch
             android:id="@+id/switch1"
             style="@style/switch1"
             android:text="@string/no_si" />
     </LinearLayout>
-
     <TextView
         android:id="@+id/textView1"
         style="@style/textView1"
@@ -72,12 +65,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
-
         <Button
             android:id="@+id/button"
             style="@style/button2"
             android:text="@string/button1" />
-
         <Button
             android:id="@+id/button2"
             style="@style/button3"
