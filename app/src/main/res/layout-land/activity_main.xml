@@ -2,87 +2,64 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="22dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+   style="@style/linearLayout"
+    tools:context=".MainActivity"
+    >
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+       style="@style/linearLayout3">
 
         <EditText
             android:id="@+id/editText1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:ems="10"
+            style="@style/texts1"
             android:hint="@string/nombre_hint"
             android:inputType="textCapWords|textPersonName"
             android:text="@string/nombre"
-            tools:targetApi="o" />
+            tools:targetApi="o"/>
 
         <Button
             android:id="@+id/button"
-            android:layout_width="237dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="55dp"
+           style="@style/button4"
             android:text="@string/button1" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        style="@style/linearLayout3">
 
         <EditText
             android:id="@+id/editText2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:ems="10"
+            style="@style/texts1"
             android:hint="@string/apellido_hint"
             android:inputType="textCapWords|textPersonName"
             android:text="@string/apellidos"
-            tools:targetApi="o" />
+            tools:targetApi="o"/>
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="237dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="55dp"
-            android:text="@string/resetear"
-            android:layout_marginStart="55dp" />
+            style="@style/button5"
+            android:text="@string/resetear" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        style="@style/linearLayout3">
 
         <EditText
             android:id="@+id/editText3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:ems="10"
+            style="@style/texts1"
             android:hint="@string/edad_hint"
             android:inputType="textPersonName|number"
             android:text="@string/edad"
-            tools:targetApi="o" />
+            tools:targetApi="o"/>
 
         <Spinner
             android:id="@+id/spinner1"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:paddingLeft="125dp"></Spinner>
+            style="@style/spinner1">
+
+        </Spinner>
     </LinearLayout>
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        style="@style/RelativeLayout">
 
         <RadioGroup
             android:id="@+id/radioGroupp"
@@ -106,47 +83,19 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="150dp"
-            android:layout_height="115dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="0dp"
-            android:layout_weight="1"
-            android:paddingStart="15dp"
-            android:paddingTop="35dp"
-            android:text="@string/hijos"
-            android:textAllCaps="false" />
+            style="@style/textView2"
+            android:text="@string/hijos" />
 
         <Switch
             android:id="@+id/switch1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginRight="0dp"
-            android:layout_marginBottom="64dp"
-            android:layout_weight="1"
-            android:paddingStart="60dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="20dp"
-            android:paddingBottom="19dp"
+            style="@style/switch2"
             android:text="@string/no_si" />
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="-278dp"
-            android:layout_marginLeft="-278dp"
-            android:layout_marginBottom="20dp"
+            style="@style/textView3"
             android:layout_toEndOf="@+id/switch1"
             android:layout_toRightOf="@+id/switch1"
-            android:paddingBottom="10dp"
-            android:text="@string/textview1"
-            android:textStyle="bold" />
-
+            android:text="@string/textview1" />
     </RelativeLayout>
-
 </LinearLayout>
