@@ -137,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 txtv.setText("");
                 radio1.setChecked(false);
                 radio2.setChecked(false);
+                spinner1.setSelection(0);
             }
         });
     }
