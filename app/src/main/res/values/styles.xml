@@ -161,4 +161,6 @@
         <item name="android:paddingLeft">@dimen/paddingswitch2_left</item>
         <item name="android:paddingBottom">@dimen/paddingswitch2_bottom</item>
     </style>
+
+    <style name="ThemePracticaTema3" parent="AppTheme" />
 </resources>
