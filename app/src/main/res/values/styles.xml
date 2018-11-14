@@ -10,7 +10,7 @@
     <style name="linearLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">25dp</item>
+        <item name="android:layout_margin">@dimen/margin_allLayout</item>
         <item name="android:orientation">vertical</item>
     </style>
     <style name="texts">
@@ -37,21 +37,21 @@
     <style name="linearLayout1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_topLayout</item>
         <item name="android:orientation">horizontal</item>
     </style>
     <style name="switch1">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:paddingLeft">60dp</item>
-        <item name="android:paddingRight">60dp</item>
+        <item name="android:paddingLeft">@dimen/paddingswitch_left</item>
+        <item name="android:paddingRight">@dimen/paddingswitch_right</item>
     </style>
     <style name="textView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingLeft">@dimen/paddingtextview_left</item>
         <item name="android:fontFamily">@font/neuropol</item>
     </style>
     <style name="textView1">
@@ -89,20 +89,20 @@
     <style name="button4">
         <item name="android:layout_width">237dp</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">55dp</item>
-        <item name="android:fontFamily">@font/neuropol</item>
+        <item name="android:layout_marginLeft">@dimen/margin_leftStartbutton</item>
+       <!-- <item name="android:fontFamily">@font/neuropol</item>-->
     </style>
     <style name="button5">
         <item name="android:layout_width">237dp</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">55dp</item>
-        <item name="android:layout_marginStart">55dp</item>
-        <item name="android:fontFamily">@font/neuropol</item>
+        <item name="android:layout_marginLeft">@dimen/margin_leftStartbutton</item>
+        <item name="android:layout_marginStart">@dimen/margin_leftStartbutton</item>
+        <!--<item name="android:fontFamily">@font/neuropol</item> -->
     </style>
     <style name="spinner1">
         <item name="android:layout_width">280dp</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">125dp</item>
+        <item name="android:paddingLeft">@dimen/paddingswitch_left1</item>
     </style>
     <style name="RelativeLayout">
         <item name="android:layout_width">wrap_content</item>
@@ -116,49 +116,49 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:fontFamily">@font/neuropol</item>
+       <!-- <item name="android:fontFamily">@font/neuropol</item> -->
     </style>
     <style name="button7">
         <item name="android:layout_width">84dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:fontFamily">@font/neuropol</item>
+      <!--  <item name="android:fontFamily">@font/neuropol</item> -->
     </style>
     <style name="textView2">
         <item name="android:layout_width">150dp</item>
         <item name="android:layout_height">115dp</item>
         <item name="android:layout_alignParentTop">true</item>
-        <item name="android:layout_marginLeft">100dp</item>
-        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_textview_left</item>
+        <item name="android:layout_marginTop">@dimen/margin_textview_top</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:paddingStart">15dp</item>
-        <item name="android:paddingTop">35dp</item>
+        <item name="android:paddingStart">@dimen/paddingtextview_start</item>
+        <item name="android:paddingTop">@dimen/paddingtextview_top</item>
         <item name="android:textAllCaps">false</item>
-        <item name="android:fontFamily">@font/neuropol</item>
+      <!--  <item name="android:fontFamily">@font/neuropol</item> -->
     </style>
     <style name="textView3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">48dp</item>
         <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_marginLeft">-278dp</item>
-        <item name="android:layout_marginStart">-278dp</item>
-        <item name="android:layout_marginBottom">20dp</item>
-        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_textview2_left</item>
+        <item name="android:layout_marginStart">@dimen/margin_textview2_start</item>
+        <item name="android:layout_marginBottom">@dimen/margin_textview2_bottom</item>
+        <item name="android:paddingBottom">@dimen/paddingtextview2_bottom</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">@font/neuropol</item>
+        <!--<item name="android:fontFamily">@font/neuropol</item>-->
     </style>
     <style name="switch2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_alignParentTop">true</item>
-        <item name="android:layout_marginLeft">120dp</item>
-        <item name="android:layout_marginTop">0dp</item>
-        <item name="android:layout_marginRight">0dp</item>
-        <item name="android:layout_marginBottom">64dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_switch2_left</item>
+        <item name="android:layout_marginTop">@dimen/margin_switch2_top</item>
+        <item name="android:layout_marginRight">@dimen/margin_switch2_right</item>
+        <item name="android:layout_marginBottom">@dimen/margin_switch2_bottom</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:paddingStart">60dp</item>
-        <item name="android:paddingRight">20dp</item>
-        <item name="android:paddingLeft">10dp</item>
-        <item name="android:paddingBottom">19dp</item>
+        <item name="android:paddingStart">@dimen/paddingswitch2_start</item>
+        <item name="android:paddingRight">@dimen/paddingswitch2_right</item>
+        <item name="android:paddingLeft">@dimen/paddingswitch2_left</item>
+        <item name="android:paddingBottom">@dimen/paddingswitch2_bottom</item>
     </style>
 </resources>

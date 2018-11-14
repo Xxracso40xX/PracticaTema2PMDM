@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Se podrían añadir más elementos a dimens, pero nosotros nos centraremos en los paddings y margins -->
+    <dimen name="margin_allLayout">25dp</dimen>
+    <dimen name="margin_topLayout">10dp</dimen>
+    <dimen name="paddingswitch_right">60dp</dimen>
+    <dimen name="paddingswitch_left">60dp</dimen>
+    <dimen name="paddingswitch_left1">125dp</dimen>
+    <dimen name="paddingtextview_left">15dp</dimen>
+    <dimen name="margin_leftStartbutton">55dp</dimen>
+    <dimen name="margin_textview_left">100dp</dimen>
+    <dimen name="margin_textview_top">0dp</dimen>
+    <dimen name="paddingtextview_start">15dp</dimen>
+    <dimen name="paddingtextview_top">35dp</dimen>
+    <dimen name="paddingtextview2_bottom">10dp</dimen>
+    <dimen name="margin_textview2_left">-278dp</dimen>
+    <dimen name="margin_textview2_start">-278dp</dimen>
+    <dimen name="margin_textview2_bottom">20dp</dimen>
+    <dimen name="margin_switch2_left">120dp</dimen>
+    <dimen name="margin_switch2_top">0dp</dimen>
+    <dimen name="margin_switch2_bottom">64dp</dimen>
+    <dimen name="margin_switch2_right">0dp</dimen>
+    <dimen name="paddingswitch2_right">20dp</dimen>
+    <dimen name="paddingswitch2_left">10dp</dimen>
+    <dimen name="paddingswitch2_bottom">19dp</dimen>
+    <dimen name="paddingswitch2_start">60dp</dimen>
+</resources>
